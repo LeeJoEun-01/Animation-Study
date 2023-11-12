@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022DD2682AFFD703008A081E /* FightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DD2672AFFD703008A081E /* FightingViewController.swift */; };
+		022DD26D2AFFD7FD008A081E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 022DD26C2AFFD7FD008A081E /* SnapKit */; };
 		02349F832AFB4DF5008AD0C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02349F822AFB4DF5008AD0C8 /* AppDelegate.swift */; };
 		02349F852AFB4DF5008AD0C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02349F842AFB4DF5008AD0C8 /* SceneDelegate.swift */; };
 		02349F872AFB4DF5008AD0C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02349F862AFB4DF5008AD0C8 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022DD2672AFFD703008A081E /* FightingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightingViewController.swift; sourceTree = "<group>"; };
 		02349F7F2AFB4DF5008AD0C8 /* Animation-Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation-Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02349F822AFB4DF5008AD0C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02349F842AFB4DF5008AD0C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,12 +32,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022DD26D2AFFD7FD008A081E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022DD2662AFFD6A0008A081E /* 1week */ = {
+			isa = PBXGroup;
+			children = (
+				022DD2672AFFD703008A081E /* FightingViewController.swift */,
+			);
+			path = 1week;
+			sourceTree = "<group>";
+		};
 		02349F762AFB4DF5008AD0C8 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +66,7 @@
 		02349F812AFB4DF5008AD0C8 /* Animation-Study */ = {
 			isa = PBXGroup;
 			children = (
+				022DD2662AFFD6A0008A081E /* 1week */,
 				02349F822AFB4DF5008AD0C8 /* AppDelegate.swift */,
 				02349F842AFB4DF5008AD0C8 /* SceneDelegate.swift */,
 				02349F862AFB4DF5008AD0C8 /* ViewController.swift */,
@@ -80,6 +93,9 @@
 			dependencies = (
 			);
 			name = "Animation-Study";
+			packageProductDependencies = (
+				022DD26C2AFFD7FD008A081E /* SnapKit */,
+			);
 			productName = "Animation-Study";
 			productReference = 02349F7F2AFB4DF5008AD0C8 /* Animation-Study.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 02349F762AFB4DF5008AD0C8;
+			packageReferences = (
+				022DD26B2AFFD7FD008A081E /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 02349F802AFB4DF5008AD0C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -136,6 +155,7 @@
 			files = (
 				02349F872AFB4DF5008AD0C8 /* ViewController.swift in Sources */,
 				02349F832AFB4DF5008AD0C8 /* AppDelegate.swift in Sources */,
+				022DD2682AFFD703008A081E /* FightingViewController.swift in Sources */,
 				02349F852AFB4DF5008AD0C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +364,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		022DD26B2AFFD7FD008A081E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		022DD26C2AFFD7FD008A081E /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 022DD26B2AFFD7FD008A081E /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 02349F772AFB4DF5008AD0C8 /* Project object */;
 }
