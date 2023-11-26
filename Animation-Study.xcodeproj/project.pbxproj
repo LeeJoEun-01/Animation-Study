@@ -15,6 +15,8 @@
 		02349F872AFB4DF5008AD0C8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02349F862AFB4DF5008AD0C8 /* FirstViewController.swift */; };
 		02349F8C2AFB4DF7008AD0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02349F8B2AFB4DF7008AD0C8 /* Assets.xcassets */; };
 		02349F8F2AFB4DF7008AD0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02349F8D2AFB4DF7008AD0C8 /* LaunchScreen.storyboard */; };
+		0246260A2B132FCD009B9426 /* Fighting3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024626092B132FCD009B9426 /* Fighting3ViewController.swift */; };
+		026D0C5E2B0DD43400CF05E7 /* ThridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D0C5D2B0DD43400CF05E7 /* ThridViewController.swift */; };
 		02C21BEA2B0912EC006A2F26 /* ReferenceCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C21BE92B0912EC006A2F26 /* ReferenceCode.swift */; };
 		02C21BEC2B09229C006A2F26 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C21BEB2B09229C006A2F26 /* StartViewController.swift */; };
 		02C21BEE2B09E843006A2F26 /* Fighting2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C21BED2B09E843006A2F26 /* Fighting2ViewController.swift */; };
@@ -30,6 +32,8 @@
 		02349F8B2AFB4DF7008AD0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02349F8E2AFB4DF7008AD0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02349F902AFB4DF7008AD0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024626092B132FCD009B9426 /* Fighting3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighting3ViewController.swift; sourceTree = "<group>"; };
+		026D0C5D2B0DD43400CF05E7 /* ThridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridViewController.swift; sourceTree = "<group>"; };
 		02C21BE92B0912EC006A2F26 /* ReferenceCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceCode.swift; sourceTree = "<group>"; };
 		02C21BEB2B09229C006A2F26 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		02C21BED2B09E843006A2F26 /* Fighting2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighting2ViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +51,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02098CBE2B04892300B2E48F /* 2week */ = {
+		02098CBE2B04892300B2E48F /* week2 */ = {
 			isa = PBXGroup;
 			children = (
 				02098CBF2B04894400B2E48F /* SecondViewController.swift */,
@@ -55,16 +59,16 @@
 				02C21BEB2B09229C006A2F26 /* StartViewController.swift */,
 				02C21BED2B09E843006A2F26 /* Fighting2ViewController.swift */,
 			);
-			path = 2week;
+			path = week2;
 			sourceTree = "<group>";
 		};
-		022DD2662AFFD6A0008A081E /* 1week */ = {
+		022DD2662AFFD6A0008A081E /* week1 */ = {
 			isa = PBXGroup;
 			children = (
 				022DD2672AFFD703008A081E /* FightingViewController.swift */,
 				02349F862AFB4DF5008AD0C8 /* FirstViewController.swift */,
 			);
-			path = 1week;
+			path = week1;
 			sourceTree = "<group>";
 		};
 		02349F762AFB4DF5008AD0C8 = {
@@ -86,8 +90,9 @@
 		02349F812AFB4DF5008AD0C8 /* Animation-Study */ = {
 			isa = PBXGroup;
 			children = (
-				02098CBE2B04892300B2E48F /* 2week */,
-				022DD2662AFFD6A0008A081E /* 1week */,
+				026D0C5C2B0DD40A00CF05E7 /* week3 */,
+				02098CBE2B04892300B2E48F /* week2 */,
+				022DD2662AFFD6A0008A081E /* week1 */,
 				02349F822AFB4DF5008AD0C8 /* AppDelegate.swift */,
 				02349F842AFB4DF5008AD0C8 /* SceneDelegate.swift */,
 				02349F8B2AFB4DF7008AD0C8 /* Assets.xcassets */,
@@ -95,6 +100,15 @@
 				02349F902AFB4DF7008AD0C8 /* Info.plist */,
 			);
 			path = "Animation-Study";
+			sourceTree = "<group>";
+		};
+		026D0C5C2B0DD40A00CF05E7 /* week3 */ = {
+			isa = PBXGroup;
+			children = (
+				026D0C5D2B0DD43400CF05E7 /* ThridViewController.swift */,
+				024626092B132FCD009B9426 /* Fighting3ViewController.swift */,
+			);
+			path = week3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +190,10 @@
 				02349F872AFB4DF5008AD0C8 /* FirstViewController.swift in Sources */,
 				02C21BEE2B09E843006A2F26 /* Fighting2ViewController.swift in Sources */,
 				02C21BEC2B09229C006A2F26 /* StartViewController.swift in Sources */,
+				026D0C5E2B0DD43400CF05E7 /* ThridViewController.swift in Sources */,
 				02349F832AFB4DF5008AD0C8 /* AppDelegate.swift in Sources */,
 				022DD2682AFFD703008A081E /* FightingViewController.swift in Sources */,
+				0246260A2B132FCD009B9426 /* Fighting3ViewController.swift in Sources */,
 				02098CC02B04894400B2E48F /* SecondViewController.swift in Sources */,
 				02C21BEA2B0912EC006A2F26 /* ReferenceCode.swift in Sources */,
 				02349F852AFB4DF5008AD0C8 /* SceneDelegate.swift in Sources */,
