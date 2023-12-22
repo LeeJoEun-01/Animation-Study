@@ -16,10 +16,12 @@
 		02349F8C2AFB4DF7008AD0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02349F8B2AFB4DF7008AD0C8 /* Assets.xcassets */; };
 		02349F8F2AFB4DF7008AD0C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02349F8D2AFB4DF7008AD0C8 /* LaunchScreen.storyboard */; };
 		0246260A2B132FCD009B9426 /* Fighting3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024626092B132FCD009B9426 /* Fighting3ViewController.swift */; };
+		025EB22C2B31BAEE00DC594E /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025EB22B2B31BAEE00DC594E /* FinalViewController.swift */; };
 		026D0C5E2B0DD43400CF05E7 /* ThridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026D0C5D2B0DD43400CF05E7 /* ThridViewController.swift */; };
 		02C21BEA2B0912EC006A2F26 /* ReferenceCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C21BE92B0912EC006A2F26 /* ReferenceCode.swift */; };
 		02C21BEC2B09229C006A2F26 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C21BEB2B09229C006A2F26 /* StartViewController.swift */; };
 		02C21BEE2B09E843006A2F26 /* Fighting2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C21BED2B09E843006A2F26 /* Fighting2ViewController.swift */; };
+		02D549852B340123003139BB /* DungGeunMo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02D549842B340123003139BB /* DungGeunMo.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +35,12 @@
 		02349F8E2AFB4DF7008AD0C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02349F902AFB4DF7008AD0C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		024626092B132FCD009B9426 /* Fighting3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighting3ViewController.swift; sourceTree = "<group>"; };
+		025EB22B2B31BAEE00DC594E /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 		026D0C5D2B0DD43400CF05E7 /* ThridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThridViewController.swift; sourceTree = "<group>"; };
 		02C21BE92B0912EC006A2F26 /* ReferenceCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceCode.swift; sourceTree = "<group>"; };
 		02C21BEB2B09229C006A2F26 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		02C21BED2B09E843006A2F26 /* Fighting2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fighting2ViewController.swift; sourceTree = "<group>"; };
+		02D549842B340123003139BB /* DungGeunMo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DungGeunMo.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +94,14 @@
 		02349F812AFB4DF5008AD0C8 /* Animation-Study */ = {
 			isa = PBXGroup;
 			children = (
+				02CDCBD22B31BAA0009DA197 /* week_final */,
 				026D0C5C2B0DD40A00CF05E7 /* week3 */,
 				02098CBE2B04892300B2E48F /* week2 */,
 				022DD2662AFFD6A0008A081E /* week1 */,
 				02349F822AFB4DF5008AD0C8 /* AppDelegate.swift */,
 				02349F842AFB4DF5008AD0C8 /* SceneDelegate.swift */,
 				02349F8B2AFB4DF7008AD0C8 /* Assets.xcassets */,
+				02D549842B340123003139BB /* DungGeunMo.otf */,
 				02349F8D2AFB4DF7008AD0C8 /* LaunchScreen.storyboard */,
 				02349F902AFB4DF7008AD0C8 /* Info.plist */,
 			);
@@ -109,6 +115,14 @@
 				024626092B132FCD009B9426 /* Fighting3ViewController.swift */,
 			);
 			path = week3;
+			sourceTree = "<group>";
+		};
+		02CDCBD22B31BAA0009DA197 /* week_final */ = {
+			isa = PBXGroup;
+			children = (
+				025EB22B2B31BAEE00DC594E /* FinalViewController.swift */,
+			);
+			path = week_final;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02349F8F2AFB4DF7008AD0C8 /* LaunchScreen.storyboard in Resources */,
+				02D549852B340123003139BB /* DungGeunMo.otf in Resources */,
 				02349F8C2AFB4DF7008AD0C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +208,7 @@
 				026D0C5E2B0DD43400CF05E7 /* ThridViewController.swift in Sources */,
 				02349F832AFB4DF5008AD0C8 /* AppDelegate.swift in Sources */,
 				022DD2682AFFD703008A081E /* FightingViewController.swift in Sources */,
+				025EB22C2B31BAEE00DC594E /* FinalViewController.swift in Sources */,
 				0246260A2B132FCD009B9426 /* Fighting3ViewController.swift in Sources */,
 				02098CC02B04894400B2E48F /* SecondViewController.swift in Sources */,
 				02C21BEA2B0912EC006A2F26 /* ReferenceCode.swift in Sources */,
