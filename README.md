@@ -8,3 +8,12 @@ SOPT 33기 Swift Animation Study
 | 3주차 |Bezier Path, CAAnimations| <img width=50% src="https://github.com/LeeJoEun-01/Animation-Study/assets/78733700/580d61e6-8776-4b54-a9d5-89e3ad7a9ce9" > |
 
 
+------
+## Final 화이팅 !!
+- SpriteKit을 사용한 픽셀 게임
+
+https://github.com/LeeJoEun-01/Animation-Study/assets/78733700/c1d32ede-ec54-469a-8bc4-b87b2234b3f8
+
+
+
+
